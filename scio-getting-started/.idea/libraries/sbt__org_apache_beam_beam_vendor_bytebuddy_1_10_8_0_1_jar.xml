@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="sbt: org.apache.beam:beam-vendor-bytebuddy-1_10_8:0.1:jar">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/beam/beam-vendor-bytebuddy-1_10_8/0.1/beam-vendor-bytebuddy-1_10_8-0.1.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
