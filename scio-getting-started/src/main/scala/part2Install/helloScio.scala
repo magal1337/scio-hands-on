@@ -24,6 +24,7 @@ object helloScio extends nbaPlayerExample with Serializable {
       .filter(_._2  >= 200)
 
     tallestPlayers.map(println)
+
     tallestPlayers.saveAsCsvFile(args("output"),csvWriteConfig)
 
     sc.run()

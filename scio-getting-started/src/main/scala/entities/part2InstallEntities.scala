@@ -32,7 +32,7 @@ object part2InstallEntities  {
       ) =>
         nbaPlayer(index,player,height,weight,collage,born,birthCity,birthState)
     }
-    // csv Read and Write Config saying how to read csv without Headers and how to write with to columns with headers "state" and "biggest_height"
+    // csv Read and Write Config saying how to read csv without Headers and how to write with two columns with headers "state" and "biggest_height"
     protected lazy val csvReadConfig: CsvIO.ReadParam = CsvIO.ReadParam(csvConfiguration = CsvIO.DefaultCsvConfig.withoutHeader)
     protected lazy val csvWriteConfig: CsvIO.WriteParam = CsvIO.WriteParam(csvConfiguration = CsvIO.DefaultCsvConfig.withHeader("state","biggest_height"))
 
